@@ -1,0 +1,41 @@
+# === Dependencies ===
+node_modules/
+.pnpm-store/
+
+# === Production Build Outputs ===
+dist/
+dist-ssr/
+frontend/dist/
+frontend/dist-ssr/
+
+# === Move Contract Build Artifacts ===
+contracts/build/
+build/
+
+# === Environment & Secrets ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# === Logs & Debug Files ===
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Editor & System Files ===
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+

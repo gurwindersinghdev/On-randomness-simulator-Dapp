@@ -1,0 +1,7 @@
+[package]
+name = "dice"
+edition = "2024"
+
+[addresses]
+dice = "0x0"
+
